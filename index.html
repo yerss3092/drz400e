@@ -2,23 +2,52 @@
 <html>
 
 <head>
-    <STyle>
-        H1 {
-            color: blue
+    <meta charset="utf-8" />
+    <title>prueba drz elementos</title>
+    <style>
+        .azul{
+            color: #0000ff;
         }
+        .rojisisisimo{color: #ff0000;}
+        ul{font-size: 20px;}
+        .verde{color:rgb(117, 0, 128); background-color: green;}
+        .verde li{color: red;}
+        .mayus{text-transform: uppercase;}
+        .verde .especial{color: yellow; font-weight: bold;}
+        #rosa{color:pink; text-decoration: underline;}
 
-        p {
-            color: rgb(57, 7, 148)
-        }
-
-        <title>prueba drz elementos</title>
     </style>
 </head>
 
 <body>
-
-    <h1><strong>especificaciones importantes </strong></h1>
     <header>
+    <h1 class="azul">especificaciones importantes</h1>
+     </header>
+     <nav class="verde">
+         <ul> 
+            <li class="mayus">link</li>
+            <li>link</li>
+            <li class="mayus especial">link</li>
+            <li>link</li>
+            <li class="mayus">link</li>
+         </ul> 
+         <div>
+             <div>
+                 <div>
+                    este es un texto de prueba
+                 </div>
+             </div>
+         </div>
+     </nav>
+     <nav>
+         <ul>
+            <li>link</li>
+            <li class="mayus">link</li>
+            <li>link</li>
+            <li class="mayus">link</li>
+            <li class="mayus" id="rosa">link</li>
+         </ul> 
+     </nav>
         <p>La moto Suzuki dr-z 400 e del año 2000 fue fabricada por la empresa Suzuki y es de la serie de Suzuki dr-z
             400
             que comprende modelos de diversas cilindradas.
@@ -34,11 +63,33 @@
             Cuando este modelo se comercializó al público general, tuvo un primer precio de 3.783,00 €.
 
             Sin más, te dejamos aquí la informacion de esta increíble moto </p>
-    </header>
+  
+    
     <iframe width="560" height="315" src="https://www.youtube.com/embed/tCN07qYrRV8" title="YouTube video player"
         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen></iframe>
-    <h2>especificaciones generales</h2>
+
+    <h1 class="rojisisisimo">especificaciones generales</h1>
+    <table>
+
+        <tr>
+            <th>marca</th>
+            <td>suzuky</td>
+        </tr>
+        <tr>
+            <th>modelo</th>
+            <td>dr-z 400 e 2000</td>
+        </tr>
+        <tr>
+            <th>año</th>
+            <td>2000</td>
+        </tr>
+        <tr>
+            <th>categoria</th>
+            <td>enduro/offroad</td>
+        </tr>
+ </table>
+    <h1>especificaciones generales</h1>
     <table>
 
         <tr>
