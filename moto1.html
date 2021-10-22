@@ -2,11 +2,15 @@
 <html lang="es">
 
 <head>
+
+
     <style>
         nav ul {
             background-color: cornsilk;
-            height: 50px;border-bottom: 3px dashed black;
+            height: 50px;
+            border-bottom: 3px dashed black;
             border-top: 3px dashed black;
+            margin-bottom: 0px;
 
         }
 
@@ -24,7 +28,20 @@
 
         .container {
 
-            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-family: cursive;
+
+            padding: 20px;
+        }
+
+        .container .description h2 {
+            text-align: center;
+            color: chocolate;
+
+        }
+
+        .container .description {
+            margin-bottom: 30px;
+            border-bottom: 3px dashed black;
         }
 
         .container h1 {
@@ -32,6 +49,8 @@
             height: auto;
             width: auto;
             text-align: center;
+            margin: 20px;
+            margin-top: 0px;
         }
 
         .container li a {
@@ -43,12 +62,26 @@
             float: left;
             list-style: none;
             margin: 10px;
+           
         }
 
         .container ol {
-            background-color: cornsilk;border-top: 3px dashed black;border-bottom: 3px dashed black;
+            background-color: cornsilk;
+            border-top: 3px dashed black;
+            border-bottom: 3px dashed black;
             height: 50px;
         }
+
+        .img {
+            float: left;
+            margin: 20px;
+        }
+        .container .profile h2
+        {text-align: center;}
+
+
+.profile .table {display: flex;}
+
     </style>
 
     <meta charset="utf-8">
@@ -137,308 +170,302 @@
                 <h1 class="profile-name my-3">SUZUKI DR-Z400SM 2016</h1>
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="https://fichasmotor.com/suzuki/"
-                            title="Todos los vehículos de Suzuki"><strong>SUZUKI</strong></a> </li>
-                    <li class="breadcrumb-item active"><strong>SUZUKI DR-Z400SM 2016</strong> </li>
+                            title="Todos los vehículos de Suzuki">SUZUKI</a> </li>
+                    <li class="breadcrumb-item active"> SUZUKI DR-Z400SM 2016</li>
                 </ol>
-                <div class="profile-header">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="cover mb-3">
-                                <div class="gray-shade"></div> <img loading="lazy" class="img-fluid"
-                                    src="https://fichasmotor.com/images/suzuki/suzuki-dr-z400sm-2016.jpg"
-                                    alt="Imagen moto Suzuki dr-z400sm año 2016"
-                                    title="Ficha técnica y especificaciones Suzuki dr-z400sm 2016">
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <h2 class="mt-2">DESCRIPCIÓN</h2>
-                            <div class="m-2">
-                                <p>La moto <b>Suzuki dr-z400sm</b> del año 2016 fue confeccionada por la empresa Suzuki
-                                    y entra en la serie de <b>Suzuki dr-z 400</b> que engloba motos de distintas
-                                    cilindradas.</p>
-                                <p>Esta moto es de la categoría de <b>super motard</b> y el primer modelo de ésta
-                                    generación de las Suzuki dr-z 400 se comercializó en el año 2000, por lo que tenemos
-                                    delante una generación de motos que tiene ya 21 años.</p>
-                                <p>Como curiosidad, resumiendo la ficha técnica y las especificaciones de esta moto,
-                                    decirte que tiene una cilindrada de 398.00 cc (24.29 ci) en un motor monocilíndrico,
-                                    4 tiempos con arranque arranque eléctrico.</p>
-                                <p>Cuando este modelo se difundió, su <b>precio de lanzamiento fué de 6.191,00 €</b> y
-                                    estaba disponible en los colores: Sólido especial blanco/sólido negro.</p>
-                                <p>Sin más, tienes aquí <b>la ficha técnica de esta</b> fantática moto</p>
-                            </div>
-                        </div>
+            </div>
+        </div>
+        <div>
+
+            <img class="img" src="https://fichasmotor.com/images/suzuki/suzuki-dr-z400sm-2016.jpg"
+                alt="Imagen moto Suzuki dr-z400sm año 2016"
+                title="Ficha técnica y especificaciones Suzuki dr-z400sm 2016">
+            <div class="description">
+                <h2 class="mt-2">DESCRIPCIÓN</h2>
+
+                <p>La moto <b>Suzuki dr-z400sm</b> del año 2016 fue confeccionada por la empresa Suzuki
+                    y entra en la serie de <b>Suzuki dr-z 400</b> que engloba motos de distintas
+                    cilindradas.</p>
+                <p>Esta moto es de la categoría de <b>super motard</b> y el primer modelo de ésta
+                    generación de las Suzuki dr-z 400 se comercializó en el año 2000, por lo que tenemos
+                    delante una generación de motos que tiene ya 21 años.</p>
+                <p>Como curiosidad, resumiendo la ficha técnica y las especificaciones de esta moto,
+                    decirte que tiene una cilindrada de 398.00 cc (24.29 ci) en un motor monocilíndrico,
+                    4 tiempos con arranque arranque eléctrico.</p>
+                <p>Cuando este modelo se difundió, su precio de lanzamiento fué de 6.191,00 € y
+                    estaba disponible en los colores: Sólido especial blanco/sólido negro.</p>
+                <p>Sin más, tienes aquí la ficha técnica de esta fantática moto</p>
+            </div>
+        </div>
+
+
+
+        <div class="profile">
+            <h2>FICHA TÉCNICA SUZUKI DR-Z400SM 2016</h2>
+            
+                            <table class="table">
+                        <thead class="table">
+                            <tr>
+                                <th class="title" colspan="2">ESPECIFICACIONES GENERALES</th>
+                            </tr>
+                            <tr>
+                                <td><b>Marca</b></td>
+                                <td><a href="https://fichasmotor.com/suzuki/"
+                                        title="Información y vehículos de Suzuki">Suzuki</a></td>
+                            </tr>
+                            <tr>
+                                <td><b>Modelo</b></td>
+                                <td>dr-z400sm 2016</td>
+                            </tr>
+                            <tr>
+                                <td><b>Año</b></td>
+                                <td>2016</td>
+                            </tr>
+                            <tr>
+                                <td><b>Categoría</b></td>
+                                <td>Super motard</td>
+                            </tr>
+                            <tr>
+                                <td><b>Precio nueva</b></td>
+                                <td>6.191,00 €</td>
+                            </tr>
+                        </thead>
+                    </table>
+                
+           
+            <div class="card rounded mb-3">
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th class="title" colspan="2">MOTOR Y TRANSMISIÓN</th>
+                            </tr>
+                            <tr>
+                                <td><b>Cilindrada</b></td>
+                                <td>398.00 cc (24.29 ci)</td>
+                            </tr>
+                            <tr>
+                                <td><b>Tipo de motor</b></td>
+                                <td>Motor monocilíndrico, 4 tiempos</td>
+                            </tr>
+                            <tr>
+                                <td><b>Compresión motor</b></td>
+                                <td>11.3:1</td>
+                            </tr>
+                            <tr>
+                                <td><b>Diámetro x carrera</b></td>
+                                <td>90.0 x 62.6 mm (3.5 x 2.5 pulgadas)</td>
+                            </tr>
+                            <tr>
+                                <td><b>Válvulas por cilindro</b></td>
+                                <td>4 válvulas</td>
+                            </tr>
+                            <tr>
+                                <td><b>Admisión</b></td>
+                                <td>Admisión por carburador Mikuni BSR36 de 36mm</td>
+                            </tr>
+                            <tr>
+                                <td><b>Control de combustible</b></td>
+                                <td>Doble árbol de levas en cabeza, mellizo cam (DOHC)</td>
+                            </tr>
+                            <tr>
+                                <td><b>Encendido</b></td>
+                                <td>Encendido electrónico por CDI</td>
+                            </tr>
+                            <tr>
+                                <td><b>Lubricación</b></td>
+                                <td>Lubricación por cárter seco</td>
+                            </tr>
+                            <tr>
+                                <td><b>Refrigeración</b></td>
+                                <td>Refrigerado por líquido</td>
+                            </tr>
+                            <tr>
+                                <td><b>Transmisión</b></td>
+                                <td>5 marchas</td>
+                            </tr>
+                            <tr>
+                                <td><b>Transmisión final</b></td>
+                                <td>Cadena</td>
+                            </tr>
+                            <tr>
+                                <td><b>Eje de transmisión</b></td>
+                                <td>Rk520kzo, 110 enlaces</td>
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+            </div>
+            <div class="card rounded mb-3">
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th class="title" colspan="2">MEDIDAS Y CAPACIDADES</th>
+                            </tr>
+                            <tr>
+                                <td><b>Peso llena</b></td>
+                                <td>146.0 kg (321.9 libras)</td>
+                            </tr>
+                            <tr>
+                                <td><b>Altura al asiento</b></td>
+                                <td>855 mm (33.7 pulgadas)</td>
+                            </tr>
+                            <tr>
+                                <td><b>Longitud total</b></td>
+                                <td>2,225 mm (87.6 pulgadas)</td>
+                            </tr>
+                            <tr>
+                                <td><b>Anchura total</b></td>
+                                <td>855 mm (33.7 pulgadas)</td>
+                            </tr>
+                            <tr>
+                                <td><b>Altura al suelo</b></td>
+                                <td>260 mm (10.2 pulgadas)</td>
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+            </div>
+            <div class="card rounded mb-3">
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th class="title" colspan="2">CHASIS, SUSPENSIÓN Y RUEDAS</th>
+                            </tr>
+                            <tr>
+                                <td><b>Tipo de chasis</b></td>
+                                <td>Bastidor de acero al cromo-molibdeno</td>
+                            </tr>
+                            <tr>
+                                <td><b>Suspensión delantera</b></td>
+                                <td>Telescópico invertido, muelle helicoidal, amortiguado con aceite</td>
+                            </tr>
+                            <tr>
+                                <td><b>Suspensión trasera</b></td>
+                                <td>Tipo de eslabón, resorte helicoidal, amortiguado con aceite</td>
+                            </tr>
+                            <tr>
+                                <td><b>Neumático delantero</b></td>
+                                <td>120/70-17</td>
+                            </tr>
+                            <tr>
+                                <td><b>Neumático trasero</b></td>
+                                <td>140/70-17</td>
+                            </tr>
+                            <tr>
+                                <td><b>Frenos delanteros</b></td>
+                                <td>Monodisco</td>
+                            </tr>
+                            <tr>
+                                <td><b>Diámetro freno delantero</b></td>
+                                <td>300 mm (11.8 pulgadas)</td>
+                            </tr>
+                            <tr>
+                                <td><b>Frenos traseros</b></td>
+                                <td>Monodisco</td>
+                            </tr>
+                            <tr>
+                                <td><b>Diámetro freno trasero</b></td>
+                                <td>240 mm (9.4 pulgadas)</td>
+                            </tr>
+                            <tr>
+                                <td><b>Ruedas</b></td>
+                                <td>Llantas de aluminio rk excel anodizadas en oro con acero acero
+                                    inoxidableidable radios</td>
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+            </div>
+            <div class="card rounded mb-3">
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th class="title" colspan="2">OTRAS ESPECIFICACIONES</th>
+                            </tr>
+                            <tr>
+                                <td><b>Opciones de color</b></td>
+                                <td>Sólido especial blanco/sólido negro</td>
+                            </tr>
+                            <tr>
+                                <td><b>Arranque</b></td>
+                                <td>Arranque eléctrico</td>
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="profile-page preguntas">
+            <h2 class="my-3">PREGUNTAS Y DUDAS SOBRE SUZUKI DR-Z400SM 2016</h2>
+            <div class="card rounded accordion-group shadow">
+                <div class="accordion">
+                    <h3 class="accordion-header blue">📅 ¿Cuándo se fabricó el primer modelo de esta moto?</h3>
+                    <div class="accordion-panel">
+                        <p>El primer modelo de esta moto se fabricó en el año <b>2008</b></p>
                     </div>
                 </div>
-                <div class="profile-page">
-                    <h2 class="my-3">FICHA TÉCNICA SUZUKI DR-Z400SM 2016</h2>
-                    <div class="card rounded mb-3">
-                        <div class="table-responsive">
-                            <table class="table">
-                                <thead>
-                                    <tr>
-                                        <th class="title" colspan="2">ESPECIFICACIONES GENERALES</th>
-                                    </tr>
-                                    <tr>
-                                        <td><b>Marca</b></td>
-                                        <td><a href="https://fichasmotor.com/suzuki/"
-                                                title="Información y vehículos de Suzuki">Suzuki</a></td>
-                                    </tr>
-                                    <tr>
-                                        <td><b>Modelo</b></td>
-                                        <td>dr-z400sm 2016</td>
-                                    </tr>
-                                    <tr>
-                                        <td><b>Año</b></td>
-                                        <td>2016</td>
-                                    </tr>
-                                    <tr>
-                                        <td><b>Categoría</b></td>
-                                        <td>Super motard</td>
-                                    </tr>
-                                    <tr>
-                                        <td><b>Precio nueva</b></td>
-                                        <td>6.191,00 €</td>
-                                    </tr>
-                                </thead>
-                            </table>
-                        </div>
-                    </div>
-                    <div class="card rounded mb-3">
-                        <div class="table-responsive">
-                            <table class="table">
-                                <thead>
-                                    <tr>
-                                        <th class="title" colspan="2">MOTOR Y TRANSMISIÓN</th>
-                                    </tr>
-                                    <tr>
-                                        <td><b>Cilindrada</b></td>
-                                        <td>398.00 cc (24.29 ci)</td>
-                                    </tr>
-                                    <tr>
-                                        <td><b>Tipo de motor</b></td>
-                                        <td>Motor monocilíndrico, 4 tiempos</td>
-                                    </tr>
-                                    <tr>
-                                        <td><b>Compresión motor</b></td>
-                                        <td>11.3:1</td>
-                                    </tr>
-                                    <tr>
-                                        <td><b>Diámetro x carrera</b></td>
-                                        <td>90.0 x 62.6 mm (3.5 x 2.5 pulgadas)</td>
-                                    </tr>
-                                    <tr>
-                                        <td><b>Válvulas por cilindro</b></td>
-                                        <td>4 válvulas</td>
-                                    </tr>
-                                    <tr>
-                                        <td><b>Admisión</b></td>
-                                        <td>Admisión por carburador Mikuni BSR36 de 36mm</td>
-                                    </tr>
-                                    <tr>
-                                        <td><b>Control de combustible</b></td>
-                                        <td>Doble árbol de levas en cabeza, mellizo cam (DOHC)</td>
-                                    </tr>
-                                    <tr>
-                                        <td><b>Encendido</b></td>
-                                        <td>Encendido electrónico por CDI</td>
-                                    </tr>
-                                    <tr>
-                                        <td><b>Lubricación</b></td>
-                                        <td>Lubricación por cárter seco</td>
-                                    </tr>
-                                    <tr>
-                                        <td><b>Refrigeración</b></td>
-                                        <td>Refrigerado por líquido</td>
-                                    </tr>
-                                    <tr>
-                                        <td><b>Transmisión</b></td>
-                                        <td>5 marchas</td>
-                                    </tr>
-                                    <tr>
-                                        <td><b>Transmisión final</b></td>
-                                        <td>Cadena</td>
-                                    </tr>
-                                    <tr>
-                                        <td><b>Eje de transmisión</b></td>
-                                        <td>Rk520kzo, 110 enlaces</td>
-                                    </tr>
-                                </thead>
-                            </table>
-                        </div>
-                    </div>
-                    <div class="card rounded mb-3">
-                        <div class="table-responsive">
-                            <table class="table">
-                                <thead>
-                                    <tr>
-                                        <th class="title" colspan="2">MEDIDAS Y CAPACIDADES</th>
-                                    </tr>
-                                    <tr>
-                                        <td><b>Peso llena</b></td>
-                                        <td>146.0 kg (321.9 libras)</td>
-                                    </tr>
-                                    <tr>
-                                        <td><b>Altura al asiento</b></td>
-                                        <td>855 mm (33.7 pulgadas)</td>
-                                    </tr>
-                                    <tr>
-                                        <td><b>Longitud total</b></td>
-                                        <td>2,225 mm (87.6 pulgadas)</td>
-                                    </tr>
-                                    <tr>
-                                        <td><b>Anchura total</b></td>
-                                        <td>855 mm (33.7 pulgadas)</td>
-                                    </tr>
-                                    <tr>
-                                        <td><b>Altura al suelo</b></td>
-                                        <td>260 mm (10.2 pulgadas)</td>
-                                    </tr>
-                                </thead>
-                            </table>
-                        </div>
-                    </div>
-                    <div class="card rounded mb-3">
-                        <div class="table-responsive">
-                            <table class="table">
-                                <thead>
-                                    <tr>
-                                        <th class="title" colspan="2">CHASIS, SUSPENSIÓN Y RUEDAS</th>
-                                    </tr>
-                                    <tr>
-                                        <td><b>Tipo de chasis</b></td>
-                                        <td>Bastidor de acero al cromo-molibdeno</td>
-                                    </tr>
-                                    <tr>
-                                        <td><b>Suspensión delantera</b></td>
-                                        <td>Telescópico invertido, muelle helicoidal, amortiguado con aceite</td>
-                                    </tr>
-                                    <tr>
-                                        <td><b>Suspensión trasera</b></td>
-                                        <td>Tipo de eslabón, resorte helicoidal, amortiguado con aceite</td>
-                                    </tr>
-                                    <tr>
-                                        <td><b>Neumático delantero</b></td>
-                                        <td>120/70-17</td>
-                                    </tr>
-                                    <tr>
-                                        <td><b>Neumático trasero</b></td>
-                                        <td>140/70-17</td>
-                                    </tr>
-                                    <tr>
-                                        <td><b>Frenos delanteros</b></td>
-                                        <td>Monodisco</td>
-                                    </tr>
-                                    <tr>
-                                        <td><b>Diámetro freno delantero</b></td>
-                                        <td>300 mm (11.8 pulgadas)</td>
-                                    </tr>
-                                    <tr>
-                                        <td><b>Frenos traseros</b></td>
-                                        <td>Monodisco</td>
-                                    </tr>
-                                    <tr>
-                                        <td><b>Diámetro freno trasero</b></td>
-                                        <td>240 mm (9.4 pulgadas)</td>
-                                    </tr>
-                                    <tr>
-                                        <td><b>Ruedas</b></td>
-                                        <td>Llantas de aluminio rk excel anodizadas en oro con acero acero
-                                            inoxidableidable radios</td>
-                                    </tr>
-                                </thead>
-                            </table>
-                        </div>
-                    </div>
-                    <div class="card rounded mb-3">
-                        <div class="table-responsive">
-                            <table class="table">
-                                <thead>
-                                    <tr>
-                                        <th class="title" colspan="2">OTRAS ESPECIFICACIONES</th>
-                                    </tr>
-                                    <tr>
-                                        <td><b>Opciones de color</b></td>
-                                        <td>Sólido especial blanco/sólido negro</td>
-                                    </tr>
-                                    <tr>
-                                        <td><b>Arranque</b></td>
-                                        <td>Arranque eléctrico</td>
-                                    </tr>
-                                </thead>
-                            </table>
-                        </div>
-                    </div>
-                </div>
-                <div class="profile-page preguntas">
-                    <h2 class="my-3">PREGUNTAS Y DUDAS SOBRE SUZUKI DR-Z400SM 2016</h2>
-                    <div class="card rounded accordion-group shadow">
-                        <div class="accordion">
-                            <h3 class="accordion-header blue">📅 ¿Cuándo se fabricó el primer modelo de esta moto?</h3>
-                            <div class="accordion-panel">
-                                <p>El primer modelo de esta moto se fabricó en el año <b>2008</b></p>
-                            </div>
-                        </div>
-                        <div class="accordion">
-                            <h3 class="accordion-header blue">💰 ¿Cuánto cuesta esta moto?</h3>
-                            <div class="accordion-panel">
-                                <p>La Suzuki dr-z400sm tiene un precio de <b>6.191,00 €</b></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="profile-page preguntas">
-                    <h2 class="my-3">ESPECIFICACIONES DE VEHÍCULOS SIMILARES</h2>
-                    <div class="row">
-                        <div class="col-md-2"><a href="https://fichasmotor.com/jawa/jawa-t-350-1993/"
-                                title="Especificaciones de Jawa t 350 1993"><img loading="lazy" class="similar-images"
-                                    src="https://fichasmotor.com/images/jawa/jawa-t-350-1993-thumbnail.jpg"
-                                    alt="Imagen moto Jawa t 350 1993" title="Ficha técnica de Jawa t 350 1993">
-                                <p>Jawa t 350 1993</p>
-                            </a></div>
-                        <div class="col-md-2"><a
-                                href="https://fichasmotor.com/moto-guzzi/moto-guzzi-850-le-mans-111-1982/"
-                                title="Especificaciones de Moto guzzi 850 le mans 111 1982"><img loading="lazy"
-                                    class="similar-images"
-                                    src="https://fichasmotor.com/images/moto-guzzi/moto-guzzi-850-le-mans-111-1982-thumbnail.jpg"
-                                    alt="Imagen moto Moto guzzi 850 le mans 111 1982"
-                                    title="Ficha técnica de Moto guzzi 850 le mans 111 1982">
-                                <p>Moto guzzi 850 le mans 111 1982</p>
-                            </a></div>
-                        <div class="col-md-2"><a
-                                href="https://fichasmotor.com/harley-davidson/harley-davidson-xl-883l-sportster-883-superlow-2011/"
-                                title="Especificaciones de Harley davidson xl 883l sportster 883 superlow 2011"><img
-                                    loading="lazy" class="similar-images"
-                                    src="https://fichasmotor.com/images/harley-davidson/harley-davidson-xl-883l-sportster-883-superlow-2011-thumbnail.jpg"
-                                    alt="Imagen moto Harley davidson xl 883l sportster 883 superlow 2011"
-                                    title="Ficha técnica de Harley davidson xl 883l sportster 883 superlow 2011">
-                                <p>Harley davidson xl 883l sportster 883 superlow 2011</p>
-                            </a></div>
-                        <div class="col-md-2"><a href="https://fichasmotor.com/yamaha/yamaha-yfz50-2019/"
-                                title="Especificaciones de Yamaha YFZ50 2019"><img loading="lazy" class="similar-images"
-                                    src="https://fichasmotor.com/images/yamaha/yamaha-yfz50-2019-thumbnail.jpg"
-                                    alt="Imagen moto Yamaha YFZ50 2019" title="Ficha técnica de Yamaha YFZ50 2019">
-                                <p>Yamaha YFZ50 2019</p>
-                            </a></div>
-                        <div class="col-md-2"><a href="https://fichasmotor.com/yamaha/yamaha-dt-125-e-1974/"
-                                title="Especificaciones de Yamaha dt 125 e 1974"><img loading="lazy"
-                                    class="similar-images"
-                                    src="https://fichasmotor.com/images/yamaha/yamaha-dt-125-e-1974-thumbnail.jpg"
-                                    alt="Imagen moto Yamaha dt 125 e 1974"
-                                    title="Ficha técnica de Yamaha dt 125 e 1974">
-                                <p>Yamaha dt 125 e 1974</p>
-                            </a></div>
-                        <div class="col-md-2"><a href="https://fichasmotor.com/ducati/ducati-monster-s2r-800-2007/"
-                                title="Especificaciones de Ducati monster s2r 800 2007"><img loading="lazy"
-                                    class="similar-images"
-                                    src="https://fichasmotor.com/images/ducati/ducati-monster-s2r-800-2007-thumbnail.jpg"
-                                    alt="Imagen moto Ducati monster s2r 800 2007"
-                                    title="Ficha técnica de Ducati monster s2r 800 2007">
-                                <p>Ducati monster s2r 800 2007</p>
-                            </a></div>
+                <div class="accordion">
+                    <h3 class="accordion-header blue">💰 ¿Cuánto cuesta esta moto?</h3>
+                    <div class="accordion-panel">
+                        <p>La Suzuki dr-z400sm tiene un precio de <b>6.191,00 €</b></p>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="profile-page preguntas">
+            <h2 class="my-3">ESPECIFICACIONES DE VEHÍCULOS SIMILARES</h2>
+            <div class="row">
+                <div class="col-md-2"><a href="https://fichasmotor.com/jawa/jawa-t-350-1993/"
+                        title="Especificaciones de Jawa t 350 1993"><img loading="lazy" class="similar-images"
+                            src="https://fichasmotor.com/images/jawa/jawa-t-350-1993-thumbnail.jpg"
+                            alt="Imagen moto Jawa t 350 1993" title="Ficha técnica de Jawa t 350 1993">
+                        <p>Jawa t 350 1993</p>
+                    </a></div>
+                <div class="col-md-2"><a href="https://fichasmotor.com/moto-guzzi/moto-guzzi-850-le-mans-111-1982/"
+                        title="Especificaciones de Moto guzzi 850 le mans 111 1982"><img loading="lazy"
+                            class="similar-images"
+                            src="https://fichasmotor.com/images/moto-guzzi/moto-guzzi-850-le-mans-111-1982-thumbnail.jpg"
+                            alt="Imagen moto Moto guzzi 850 le mans 111 1982"
+                            title="Ficha técnica de Moto guzzi 850 le mans 111 1982">
+                        <p>Moto guzzi 850 le mans 111 1982</p>
+                    </a></div>
+                <div class="col-md-2"><a
+                        href="https://fichasmotor.com/harley-davidson/harley-davidson-xl-883l-sportster-883-superlow-2011/"
+                        title="Especificaciones de Harley davidson xl 883l sportster 883 superlow 2011"><img
+                            loading="lazy" class="similar-images"
+                            src="https://fichasmotor.com/images/harley-davidson/harley-davidson-xl-883l-sportster-883-superlow-2011-thumbnail.jpg"
+                            alt="Imagen moto Harley davidson xl 883l sportster 883 superlow 2011"
+                            title="Ficha técnica de Harley davidson xl 883l sportster 883 superlow 2011">
+                        <p>Harley davidson xl 883l sportster 883 superlow 2011</p>
+                    </a></div>
+                <div class="col-md-2"><a href="https://fichasmotor.com/yamaha/yamaha-yfz50-2019/"
+                        title="Especificaciones de Yamaha YFZ50 2019"><img loading="lazy" class="similar-images"
+                            src="https://fichasmotor.com/images/yamaha/yamaha-yfz50-2019-thumbnail.jpg"
+                            alt="Imagen moto Yamaha YFZ50 2019" title="Ficha técnica de Yamaha YFZ50 2019">
+                        <p>Yamaha YFZ50 2019</p>
+                    </a></div>
+                <div class="col-md-2"><a href="https://fichasmotor.com/yamaha/yamaha-dt-125-e-1974/"
+                        title="Especificaciones de Yamaha dt 125 e 1974"><img loading="lazy" class="similar-images"
+                            src="https://fichasmotor.com/images/yamaha/yamaha-dt-125-e-1974-thumbnail.jpg"
+                            alt="Imagen moto Yamaha dt 125 e 1974" title="Ficha técnica de Yamaha dt 125 e 1974">
+                        <p>Yamaha dt 125 e 1974</p>
+                    </a></div>
+                <div class="col-md-2"><a href="https://fichasmotor.com/ducati/ducati-monster-s2r-800-2007/"
+                        title="Especificaciones de Ducati monster s2r 800 2007"><img loading="lazy"
+                            class="similar-images"
+                            src="https://fichasmotor.com/images/ducati/ducati-monster-s2r-800-2007-thumbnail.jpg"
+                            alt="Imagen moto Ducati monster s2r 800 2007"
+                            title="Ficha técnica de Ducati monster s2r 800 2007">
+                        <p>Ducati monster s2r 800 2007</p>
+                    </a></div>
+            </div>
+        </div>
+    </div>
+    </div>
     </div>
     <footer class="footer d-flex flex-column flex-md-row align-items-center justify-content-between">
         <p class="text-muted text-center text-md-left mb-0 d-md-block"> <a
